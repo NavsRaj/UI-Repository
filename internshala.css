@@ -1,0 +1,255 @@
+*{
+  margin: 0 auto;
+  padding: 0 auto;
+  box-sizing: border-box;
+}
+body{
+  background-color: #ffff;
+}
+button{
+  cursor: pointer;
+}
+.main-header{
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.menus
+{
+  display: inline-flex;
+  padding-top: 10px;
+  margin-left: 10px;
+  text-transform: capitalize;
+  font-size: larger;
+}
+.nav-btn{
+  display: inline-flex;
+  padding-top: 10px;
+}
+.menus div{
+  padding: 10px;
+  cursor: pointer;
+}
+.menu:hover{
+ 
+  color: rgb(30, 120, 223);
+}
+.nav-btn {
+  padding: 10px;
+  margin-left: 10px;
+}
+.nav-btn button{
+  padding: 10px 17px;
+  margin-left: 10px;
+}
+.menu span{
+  text-transform: uppercase;
+ font-weight: bolder;
+ letter-spacing: 5px
+ ;
+ background-color: orange;color: white; border-radius: 5px;padding: 8px 17px;
+}
+.menu span:hover{
+  background-color: #ffff;
+  color:#FF8C00 ;
+  border: 3px solid #FF8C00;
+}
+.nav-btn button{
+  text-transform: uppercase;
+  font-weight:bold;
+  letter-spacing: 3px;
+}
+.login-btn{
+  border: 3px solid rgb(0, 139, 205);
+  color:rgb(0, 139, 205);
+  background-color: #ffff;
+  border-radius: 4px;
+}
+.login-btn:hover{
+  background-color: rgb(0, 139, 205);;
+  color: #ffff;
+}
+.register-btn{
+  color:#000 ;
+  background-color: 
+   #00A5EC;
+   border-radius: 3px
+   ;
+   border: 2px solid #00A5EC;
+}
+.register-btn:hover{
+  color:#ffff;
+  border: 3px solid #00A5EC;
+}
+.search-center{
+  display: flex;
+  justify-content: center;
+}
+.search-section{
+  padding: 20px;
+}
+.search-center input{
+padding: 20px;
+border: 2px solid #00A5EC;
+width: 600px;
+border-radius: 5px;
+}
+input::placeholder{
+  font-size: larger;
+}
+.search-button{
+background-color: #00A5EC;
+color: #ffff;
+border-style: none;
+padding: 20px;
+text-transform: uppercase;
+border-radius: 10px;
+font-size: larger;
+}
+.search-button:hover{
+color: #00A5EC;
+  border:2px solid  #00A5EC;
+background-color: #ffff;
+}
+.img-section{
+  display: flex;
+  justify-content: center;
+}
+.apply-section,.Internship-section,.jobs-section{
+  margin: 10px;
+}
+.apply-content,.Internship-content,.jobs-content{
+display: flex;
+}
+.apply-text,.Internship-text,.jobs-text{
+  justify-content: flex-start;
+}
+.apply-link,.Intership-link,.jobs-link{
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+.apply-text h5 , .Internship-text h5 ,.jobs-text h5{
+  font-size: xx-large;
+  font-family: 'Times New Roman', Times, serif;
+}
+.apply-text p,.Internship-text p ,.jobs-text p{  
+ font-weight: 500;
+  padding: 10px;
+  font-size: 20px;
+  
+}
+.apply-link h6,.Internship-link h6,.jobs-link h6{
+  color:#00A5EC;
+  font-size: large;
+}
+.apply-link h6:hover,.jobs-link h6:hover{
+  text-decoration:underline;
+  cursor: pointer;
+}
+.location,.categories{
+ padding: 10px;
+}
+.location-header,.categories-header {
+margin-left: 110px;
+}
+.location-header h1,.categories-header h1{
+  text-transform: uppercase;
+  font: size 80px;;
+}
+.location-content,.categories-content,.domain-content{
+  display: flex;
+  justify-content: space-around;
+}
+.location-content div,.categories-content div,.domain-content div{
+  padding: 10px;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  padding: 10px;
+}
+.location-content div:hover,.categories-content div:hover,.domain-content div:hover {
+  cursor: pointer;
+  box-shadow: 5px solid grey;
+}
+.Internship-link h6:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}
+.Internship-link {
+  margin-top: 15px;
+}
+.jobs-span{
+  background-color: #FF8C00;
+  color: #ffff;
+  text-transform: uppercase;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 3px;
+  font-weight: 10px;
+}
+.jobs-text h5 {
+  text-transform: capitalize;
+}
+.location-content div:hover,.categories-content div:hover,.domain-content div:hover,.company-list div:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(31, 82, 92, 0.19);
+  color: #00A5EC;
+}
+.location-content img , .categories-content img,.domain-section 
+img,.company-list img {
+  display: block;
+}
+.location-content {
+  margin-top: 0 10px;
+}
+.apply-section{
+  margin: 10px 0 ;
+}
+.company-list {
+  display: flex; 
+  justify-content: space-between; 
+  padding: 10px; 
+}
+.company-list div {
+  text-align: right; 
+  padding: 5px; 
+}
+
+.company-list div { 
+  text-align: center;
+}
+.footer,.end{
+  background-color: #343a40;
+  padding: 10px;
+  color: white;
+}
+.footer-section
+{
+  display:flex;
+  justify-content: space-around;
+}
+.footer-stream h4{
+  text-transform: uppercase;
+  font-size: medium;
+  padding: 10px;
+}
+.footer-stream li{
+  list-style-type: none;
+  font-size: medium;
+  padding: 10px ;
+  text-transform:capitalize;
+  font-weight: lighter;
+}
+.end{
+  margin-top: 2px;
+}
+.end-content{
+  display: flex;
+  justify-content: space-between;
+}
+.end-span{
+  margin-top: 50px;
+}
+.apply-section,.location,.categories,.domain,.jobs-section,.company{
+  padding: 10px;
+  margin: 10px;
+}
